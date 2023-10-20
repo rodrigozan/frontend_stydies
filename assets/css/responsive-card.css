@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+
+}  
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 1 1 120px;
+    aspect-ratio: 1 / 1;
+    background-color: green;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.content {
+    flex: 1 1 220px;
+    background-color: purple;
+}
